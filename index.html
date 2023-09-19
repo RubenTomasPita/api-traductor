@@ -1,0 +1,50 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="./styles.css">
+        <link rel="icon" href="/img/traducir.ico" type="image/x-icon">
+
+        <title>Api-Traductor</title>
+    </head>
+    <body>
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h1 class="display-4">Traductor</h1>
+                </div>
+            </div>
+            
+            <div class="row mt-4">
+                <div class="col-md-4">
+                    <label for="selectLanguagesFrom" class="form-label">Traducir del:</label>
+                    <select name="languagesFrom" id="selectLanguagesFrom" class="form-select">
+                        <option value="es">Español</option>
+                    </select>
+                </div>
+                <div class="col-md-4">
+                    <label for="selectLanguagesTo" class="form-label">al:</label>
+                    <select name="languagesTo" id="selectLanguagesTo" class="form-select"></select>
+                </div>
+            </div>
+            
+            <form action="" id="formTraduce" class="mt-4">
+                <div class="mb-3">
+                    <label for="text" class="form-label">Ingresa el texto a traducir</label>
+                    <textarea name="text" id="text" cols="30" rows="10" class="form-control"></textarea>
+                </div>
+                <button class="btn btn-success" id="submit" type="submit">Traducir</button>
+            </form>
+            
+            <div class="result mt-4">
+                <label for="Result" class="form-label">Resultado:</label>
+                <textarea name="result" id="result" cols="30" rows="10" class="form-control"></textarea>
+            </div>
+        </div>
+
+        <script src="./main.js"></script>
+    </body>
+    </html>

@@ -1,0 +1,42 @@
+h1{
+    text-align: center;
+    margin-top: 30px;
+}
+.languages-container{
+    text-align: center;
+}
+.container{
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+#formTraduce{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+
+body {
+    background-color: #f2f2f2;
+}
+
+
+.btn-custom {
+    background-color: #007BFF;
+    color: #fff;
+}
+
+.btn-custom:hover {
+    background-color: #0056b3;
+}
+
+.btn-success {
+    background-color: #0056b3;
+}
+
+
+.display-4 {
+    color: #40e0d0;
+}
